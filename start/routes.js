@@ -18,6 +18,6 @@ const Route = use('Route')
 
 // Root route
 Route.get('/', () => {
-  return { greeting: 'Hello world with Azure' }
+  return { greeting: 'Hello world with Microsoft Azure' }
 })
 Route.post("/car", "CarController.carView").validator('Car');
